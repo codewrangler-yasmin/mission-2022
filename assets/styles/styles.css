@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap");
+:root {
+  --bg-dark: #0b0d17;
+  --bg-white: #ffffff;
+  --bg-orange: #ff5959;
+
+  --text-white: #ffffff;
+  --text-primary: #424242;
+  --text-dark: #333333;
+  --text-medium-dark: #13103a;
+  --text-orange: #ffad5a;
+
+  --font-regular: "Poppins", sans-serif;
+  --font-special: "Yeseva One", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-regular);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+}
+
+p {
+  color: var(--text-primary);
+  font-family: var(--font-regular);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+  color: var(--text-medium-dark);
+  font-family: var(--font-regular);
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0 solid;
+  color: var(--text-medium-dark);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: var(--font-regular);
+  color: var(--text-dark);
+}
+.section-padding {
+  padding: 80px 0;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-justify {
+  text-align: justify;
+}
+.pt-0 {
+  padding-top: 0;
+}
+.pb-0 {
+  padding-bottom: 0;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.flex {
+  display: flex;
+}
+.flex-dir {
+  flex-direction: column;
+  justify-self: center;
+  gap: 24px;
+}
